@@ -1,21 +1,33 @@
-print("Bem-Vindo á Floresta com um tesouro!!")
-print("Estas em uma floresta e precisas de encontrar o tesouro perdido.")
+print("Bem-Vindo á Floresta tens de encontrar um Tesouro Perdido!!")
+print("Estas em uma floresta e precisas de encontrar o Tesouro Perdido.")
 print("A tua missão é encontrar o tesouro perdido e voltar para casa.")
 print("Boa sorte!!")
-
-print("Encontraste uma gruta, a tua escolha é: ")
-escolha = input("Tens dois caminhos o da Entrar/Fugir:")
-if escolha == "Entrar":
-  print("Encontraste uma alcateia de lobos, a tua escolha é: " )
-  input("Tens de escolher entre fugir/lutar:")
-else:
-  print("Foste ferido na perna Esquerda por um Lobo!!")
-if escolha == "Curar/Continuar":
-  print("Morreste, Com uma emorrgia na perna esquerda")
-  if escolha == "Fugir":
-      print("Morreste por um Crocodilo ao voltar, COBARDE, FIM DE JOGO")
+print("Vamos começar!!")
+print("Entraste na Floresta e encontraste uma encruzilhada tens duas opções:")#variavel para obter duas opções
+print("1. Ir para a esquerda")#varivel
+print("2. Ir para a direita")#variavel
+escolha = input("Qual é a tua escolha? (1 ou 2): ")#
+if escolha == "1":#
+    print("Encontraste um rio e precisas de atravessá-lo.")#
+    print("1. Nadar")#
+    print("2. Usar uma ponte")#
+    escolha = input("Qual é a tua escolha? (1 ou 2): ")#      
+    if escolha == "1":#
+        print("Não conseguiste atravessar o rio e morreste.")#
+        print("Fim de Jogo")#
+    elif escolha == "2":#
+        print("Usaste uma ponte e atravessaste o rio com sucesso.")#
+        print("Agora estás numa caverna e tens duas opções:")#
+        print("1. Entrar na caverna")#
+        print("2. Ir para o lado oposto")#
+        escolha = input("Qual é a tua escolha? (1 ou 2): ")#
+        if escolha == "1":#
+            print("Encontraste o tesouro perdido e voltaste para casa.")#
+        elif escolha == "2":#
+            print("Encontraste um monstro e morreste.")#
+        print("Fim de jogo.")#
   
-
+        
 
 
 
