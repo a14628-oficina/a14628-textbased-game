@@ -10,3 +10,4 @@ e também se chegares ao final do jogo vais conseguir encontrar um tesouro e lev
 -Também vai se poder ver que numa caverna vai haver um desafio que vais ter de lutar contra um monstro para conseguir pegar o tesouro.
 
 -O meu projeto acho que foi o projeto mais peQueno do que o dos meus colegas e menos desenvolvido mas acho Que no final vai ficar bom.
+
